@@ -1,0 +1,112 @@
+body {
+    overflow: auto;
+    background-color: rgb(237,232,208);
+  }
+  
+  .template {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: [col1] 25% [col2] auto [col3] 25% [colEnd] auto;
+    grid-template-rows: [Orgrow] 2% [row1] auto  [row2] auto [row3] auto [row4] auto [rowEnd] auto [barrier] 2% ;
+  }
+  
+  .header {
+    grid-column-start: col1;
+    grid-column-end: colEnd;
+    grid-row-start: row1;
+    grid-row-end: row2;
+    border-style: solid;
+    border-color: color #88E788;
+    border-radius: 30px;
+    border-width: 5px;
+    text-align: center;
+    background-color: rgb(209,255,189);
+    font-size: 50px;
+  }
+  
+  .footer {
+    overflow:auto;
+    grid-column-start: col1;
+    grid-column-end: colEnd;
+    grid-row-start: row4;
+    grid-row-end: rowEnd;
+    border-style: solid;
+    border-color: black;
+    background-color: mistyrose;
+    text-align: left;
+    font-size: 20px;
+    float: right;
+  }
+  
+  .ending {
+    overflow:auto;
+    grid-column-start: col1;
+    grid-column-end: colEnd;
+    grid-row-start: rowEnd;
+    grid-row-end: barrier;
+    border-style: solid;
+    border-color: black;
+    background-color: mistyrose;
+    text-align: left;
+    font-size:20px;
+    float: right;
+  }
+  
+  .middle {
+    overflow: auto;
+    grid-column-start: col1;
+    grid-column-end: col2;
+    grid-row-start: row2;
+    grid-row-end: row3;
+    border-style: solid;
+    border-color: black;
+    /* background-color: rgb(196,164,132); */
+    height: 105px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .middle2 {
+    overflow: auto;
+    grid-column-start: col3;
+    grid-column-end: colEnd;
+    grid-row-start: row2;
+    grid-row-end: row3;
+    border-style: solid;
+    border-color: black;
+    /* background-color: rgb(152, 125, 98); */
+    flex-grow: 1;
+    height: 105px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .middle3 {
+    overflow: auto;
+    grid-column-start: col1;
+    grid-column-end: colEnd;
+    grid-row-start: row3;
+    grid-row-end: row4;
+    border-style: solid;
+    border-color: black;
+    background-color: mistyrose;
+    flex-grow: 1;
+    height: 105px;
+    text-align: left;
+    font-size: 18px;
+  }
+  .stuff {
+    overflow: auto;
+    grid-column-start: col2;
+    grid-column-end: col3;
+    grid-row-start: row2;
+    grid-row-end: row3;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(198,252,255);
+    flex-grow: 1;
+    height: 105px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
