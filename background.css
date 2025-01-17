@@ -65,7 +65,7 @@ body {
 }
 
 .middle2 {
-  overflow: auto;
+  overflow: hidden;
   grid-column-start: col3;
   grid-column-end: colEnd;
   grid-row-start: row2;
