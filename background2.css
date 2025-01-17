@@ -7,7 +7,7 @@ body{
     display:grid;
     gap: 10px;
     grid-template-columns: [col1] auto [col2] auto [colm] auto [col3] auto[col4] auto;
-    grid-template-rows: [buffer] 2% [row1] auto [row2] auto [row3] 50% [endbuffer] 2%;
+    grid-template-rows: [buffer] 2% [row1] auto [row2] auto [row3] auto [endbuffer] 2%;
 }
 
 .header{
@@ -17,7 +17,6 @@ body{
     grid-row-end: row2;
     border-style: solid;
     border-color: color #ADFBFF;
-    border-radius: 30px;
     border-width: 5px;
     text-align: center;
     background-color: rgb(198,252,255);
