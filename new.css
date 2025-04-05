@@ -57,7 +57,15 @@ a{
     overflow: hidden;
     display: flex;
     gap: 0;
-    
+}
+
+.introduction .about{
+    margin: 0 20%;
+    height:60%;
+    width: 80%;
+    text-align: left;
+    background: darkgreen;
+
 }
 
 .container{
