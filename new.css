@@ -51,12 +51,13 @@ a{
 .introduction .header{
     width: 50%;
     height: 40%;
-    background: red;
+    background: rgb(0, 255, 17);
     margin: 0% 20%;
     font-size: 1.5em;
     overflow: hidden;
     display: flex;
     gap: 0;
+    opacity: 1;
 }
 
 .introduction .about{
@@ -64,7 +65,7 @@ a{
     height:60%;
     width: 80%;
     text-align: left;
-    background: darkgreen;
+    background: rgb(2, 40, 255);
 
 }
 
@@ -72,7 +73,9 @@ a{
     height:300px;
     width:60%;
     height: 40%;
-    margin: 1% 20%;
+    margin: 0 20%;
+    padding:0;
+    box-sizing: border-box;
     display:flex;
     gap: 2%;
 
@@ -81,17 +84,23 @@ a{
 .interests{
     background: rgb(63, 62, 62);
     color: white;
-    height: fit-content;
+    height: auto;
     width: 38%;
     border: 4px solid;
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
     border-color: rgb(45, 45, 45);
     text-align: left;
     overflow:hidden;
 }
 
 .interests .header{
-    background: blue;
-    height: 10%;
+    background: yellow;
+    color: orange;
+    padding: 0;
+    opacity: 1;
+    height: 7%;
     font-size: 12px;
 }
 
@@ -100,7 +109,7 @@ a{
 }
 
 .interests .first{
-    background:lightblue;
+    background:rgb(255, 179, 0);
     height:fit-content;
     font-size: 1em;
     margin: 0;
@@ -114,6 +123,9 @@ a{
     border: 4px solid;
     border-color: rgb(45, 45, 45);
     text-align: left;
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
     overflow:auto;
 }
 
@@ -121,6 +133,7 @@ a{
     background: blue;
     height: 10%;
     font-size: 12px;
+    opacity: 1;
 }
 
 .experience .header h1{
